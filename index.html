@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVASCRIPT CALCULATOR</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="calculator">
@@ -16,7 +16,8 @@
                 </div>
                 <div>
                     <input type="button" value="AC" onclick="display.value = '' " class="operator">
-                   <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
+                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)"
+                        class="operator">
                     <input type="button" value="%" onclick="display.value += '%' " class="operator">
                     <input type="button" value="/" onclick="display.value += '/' " class="operators">
                 </div>
@@ -43,7 +44,6 @@
                     <input type="button" value="." onclick="display.value += '.' ">
                     <input type="button" value="=" onclick="display.value = eval(display.value)" class="operators">
                 </div>
-                
             </form>
         </div>
     </div>
